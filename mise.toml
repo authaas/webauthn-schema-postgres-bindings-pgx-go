@@ -1,0 +1,5 @@
+[tools]
+cargo-binstall = "latest"
+"cargo:cocogitto" = "latest"
+go = "latest"
+sqlc = "latest"

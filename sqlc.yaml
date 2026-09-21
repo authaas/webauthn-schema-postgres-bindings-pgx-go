@@ -1,0 +1,13 @@
+version: "2"
+sql:
+  - engine: postgresql
+    schema:
+      - schema/identity/migrations
+      - schema/webauthn/migrations
+    queries: schema/webauthn/queries
+    gen:
+      go:
+        out: module
+        package: webauthn
+        sql_package: pgx/v5
+        omit_unused_structs: true
