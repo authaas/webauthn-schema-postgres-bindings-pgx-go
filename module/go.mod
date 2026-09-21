@@ -1,4 +1,4 @@
-module github.com/authaas/webauthn-operations-bindings-postgres-pgx-go
+module github.com/authaas/webauthn-schema-postgres-bindings-pgx-go
 
 go 1.27.1
 
